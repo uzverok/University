@@ -1,0 +1,65 @@
+Start project.
+constructor TeacherRepository
+Start LoadTeachers
+fileLine: Ivanova Irina 44 Minsk Sadovaya 1 - 2100
+Не удалось сконвертировать занчение квартиры для преподавателя Ivanova
+fileLine: Petrova Marina 34 Minsk Kozlova 1 11 2200
+fileLine: Antonova Anna 36 Minsk Zaharova 6 51 -
+Не удалось сконвертировать занчение з/п для преподавателя Antonova
+fileLine: Demidova Ekaterina 25 Minsk Gorkogo 6 8 2500
+fileLine: Орлов Семен 25 Гродно Машерова 55 - -
+Не удалось сконвертировать занчение квартиры для преподавателя Орлов
+Не удалось сконвертировать занчение з/п для преподавателя Орлов
+Finish LoadTeachers. TeachersCount:5
+TeacherRepository.getTeachers
+Учитель{фамилия='Ivanova', имя='Irina', возраст=44, Адрес{город='Minsk', улица='Sadovaya', дом=1}, З/П=2100.0}
+Учитель{фамилия='Petrova', имя='Marina', возраст=34, Адрес{город='Minsk', улица='Kozlova', дом=1, квартира=11}, З/П=2200.0}
+Учитель{фамилия='Antonova', имя='Anna', возраст=36, Адрес{город='Minsk', улица='Zaharova', дом=6, квартира=51}, З/П=2000.0}
+Учитель{фамилия='Demidova', имя='Ekaterina', возраст=25, Адрес{город='Minsk', улица='Gorkogo', дом=6, квартира=8}, З/П=2500.0}
+Учитель{фамилия='Орлов', имя='Семен', возраст=25, Адрес{город='Гродно', улица='Машерова', дом=55}, З/П=2000.0}
+constructor StudentRepository
+Start LoadStudents
+fileLine: Ivanov Ivan 18 Minsk Pushkina 1 55
+fileLine: Petrov Petr 20 Gomel Partizanskaya 4 88
+fileLine: Leonidov Leonid 20 Vitebsk Masherova 3 -
+Не удалось сконвертировать занчение квартиры для студента Leonidov
+fileLine: Сидоров Сидор 21 Могилев Мира 6 15
+fileLine: Майоров Алексей 30 Минск Машерова 15 15
+fileLine: Крисенко Виктор 32 Минск Рафиева 10 -
+Не удалось сконвертировать занчение квартиры для студента Крисенко
+fileLine: Книга Станислав 25 Минск Глаголева 1 1
+Finish LoadStudents. StudentsCount:7
+StudentRepository.getStudents
+Студент{фамилия='Ivanov', имя='Ivan', возраст=18, Адрес{город='Minsk', улица='Pushkina', дом=1, квартира=55}}
+Студент{фамилия='Petrov', имя='Petr', возраст=20, Адрес{город='Gomel', улица='Partizanskaya', дом=4, квартира=88}}
+Студент{фамилия='Leonidov', имя='Leonid', возраст=20, Адрес{город='Vitebsk', улица='Masherova', дом=3}}
+Студент{фамилия='Сидоров', имя='Сидор', возраст=21, Адрес{город='Могилев', улица='Мира', дом=6, квартира=15}}
+Студент{фамилия='Майоров', имя='Алексей', возраст=30, Адрес{город='Минск', улица='Машерова', дом=15, квартира=15}}
+Студент{фамилия='Крисенко', имя='Виктор', возраст=32, Адрес{город='Минск', улица='Рафиева', дом=10}}
+Студент{фамилия='Книга', имя='Станислав', возраст=25, Адрес{город='Минск', улица='Глаголева', дом=1, квартира=1}}
+constructor MethodistService.
+constructor MethodistRepository
+Start LoadMethodists
+fileLine: Методист1 Irina 44 Minsk Sadovaya 1 - математика 0,1,2
+Не удалось сконвертировать занчение квартиры для методиста Методист1
+fileLine: Методист2 Marina 34 Minsk Kozlova 1 11 информатика 3
+Finish LoadMethodists. MethodistsCount:2
+MethodistService.getMethodists
+MethodistRepository.getMethodists
+Методист{фамилия='Методист1', имя='Irina', возраст=44, Адрес{город='Minsk', улица='Sadovaya', дом=1}, предмет='математика', подшефные преподаватели=Ivanova Irina,Petrova Marina,Antonova Anna}
+Методист{фамилия='Методист2', имя='Marina', возраст=34, Адрес{город='Minsk', улица='Kozlova', дом=1, квартира=11}, предмет='информатика', подшефные преподаватели=Demidova Ekaterina}
+constructor GroupService.
+constructor GroupRepository
+Start LoadGroups
+Finish LoadGroups. GroupsCount:2
+GroupService.getGroups
+GroupRepository.getGroups
+Группа{факультет=ИТ, курс=2, преподаватель=Ivanova Irina, студенты группы=Майоров Алексей,Крисенко Виктор}
+Группа{факультет=Роботы, курс=3, преподаватель=Demidova Ekaterina, студенты группы=Книга Станислав,Petrov Petr,Leonidov Leonid}
+Студент{фамилия='Ivanov', имя='Ivan', возраст=18, Адрес{город='Minsk', улица='Pushkina', дом=1, квартира=55}}
+Студент{фамилия='Petrov', имя='Petr', возраст=20, Адрес{город='Gomel', улица='Partizanskaya', дом=4, квартира=88}}
+Студент{фамилия='Leonidov', имя='Leonid', возраст=20, Адрес{город='Vitebsk', улица='Masherova', дом=3}}
+Студент{фамилия='Сидоров', имя='Сидор', возраст=21, Адрес{город='Могилев', улица='Мира', дом=6, квартира=15}}
+Студент{фамилия='Книга', имя='Станислав', возраст=25, Адрес{город='Минск', улица='Глаголева', дом=1, квартира=1}}
+Студент{фамилия='Майоров', имя='Алексей', возраст=30, Адрес{город='Минск', улица='Машерова', дом=15, квартира=15}}
+Студент{фамилия='Крисенко', имя='Виктор', возраст=32, Адрес{город='Минск', улица='Рафиева', дом=10}}

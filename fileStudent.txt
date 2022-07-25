@@ -1,0 +1,7 @@
+Ivanov Ivan 18 Minsk Pushkina 1 55
+Petrov Petr 20 Gomel Partizanskaya 4 88
+Leonidov Leonid 20 Vitebsk Masherova 3 -
+Сидоров Сидор 21 Могилев Мира 6 15
+Майоров Алексей 30 Минск Машерова 15 15
+Крисенко Виктор 32 Минск Рафиева 10 -
+Книга Станислав 25 Минск Глаголева 1 1

@@ -1,0 +1,5 @@
+Ivanova Irina 44 Minsk Sadovaya 1 - 2100
+Petrova Marina 34 Minsk Kozlova 1 11 2200
+Antonova Anna 36 Minsk Zaharova 6 51 -
+Demidova Ekaterina 25 Minsk Gorkogo 6 8 2500
+Орлов Семен 25 Гродно Машерова 55 - -
